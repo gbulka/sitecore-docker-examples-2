@@ -1,0 +1,5 @@
+.\init.ps1 -LicenseXmlPath C:\License\license.xml
+docker-compose build solution
+docker-compose build
+
+docker-compose -f docker-compose.xm1.yml -f docker-compose.xm1.override.yml up -d 
